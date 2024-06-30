@@ -52,9 +52,9 @@ services:
     networks:
       - yansir-network
 
-  whatsapp-http-api:
-    image: devlikeapro/whatsapp-http-api-plus
-    container_name: whatsapp-http-api
+  waha:
+    image: devlikeapro/waha-plus
+    container_name: waha
     ports:
       - "3002:3000"
     networks:
